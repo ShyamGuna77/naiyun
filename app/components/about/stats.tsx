@@ -3,7 +3,7 @@ import { Chip } from "@/app/utils/Chip"
 import Reveal from "@/app/utils/Reveal"
 import { AiFillApple,AiFillAndroid} from "react-icons/ai"
 
-const stats = () => {
+const Stats = () => {
   return (
     <div className="relative">
       <Reveal>
@@ -54,4 +54,4 @@ const stats = () => {
   );
 }
 
-export default stats
+export default Stats

@@ -8,7 +8,7 @@ export const Header = () => {
     return (
         <>
         <header className="h-[720px] px-4 flex items-center justify-between
-        sticky top-0 z-20 bg-zinc-900/50 backdrop-blur-md
+        sticky top-0 z-20 bg-zinc-900/50 
         ">
             <MyLinks />
             <Button >My resume</Button>
