@@ -9,3 +9,18 @@
   --font-mono: var(--font-geist-mono);
 }
 
+
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.writing-vertical {
+  writing-mode: vertical-lr;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
