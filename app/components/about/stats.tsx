@@ -10,9 +10,9 @@ const Stats = () => {
         <div>
           <h4 className="flex items-center mb-6">
             <AiFillApple className="text-indigo-500 text-2xl" />
-            <span className="font-bold ml-2">Use at work</span>
+            <span className="font-bold ml-2 text-white">Use at work</span>
           </h4>
-          <div className="flex flex-wrap gap-2 mb-12">
+          <div className="flex flex-wrap gap-2 mb-12 text-white">
             <Chip>JavaScript</Chip>
             <Chip>TypeScript</Chip>
             <Chip>HTML</Chip>
@@ -34,9 +34,9 @@ const Stats = () => {
         <div>
           <h4 className="flex items-center mb-6">
             <AiFillAndroid className="text-indigo-500 text-2xl" />
-            <span className="font-bold ml-2">Use for fun</span>
+            <span className="font-bold ml-2 text-white">Use for fun</span>
           </h4>
-          <div className="flex flex-wrap gap-2 mb-12">
+          <div className="flex flex-wrap gap-2 mb-12 text-white">
             <Chip>Rust</Chip>
             <Chip>Tailwind</Chip>
             <Chip>Java</Chip>

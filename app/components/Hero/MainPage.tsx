@@ -1,12 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import Reveal from "@/app/utils/Reveal";
 import DotGrid from "./Dots";
-import { Button } from "../navbar/Button";
+
 
 const Hero = () => {
     return (
       <>
-        <section className="text-slat-100 overflow-hidden py-24 md:py-32">
+        <section className="text-slat-100 overflow-hidden py-24 md:py-32 ">
           <div className="relative">
             <div className="pointer-events-none relative z-10">
               <Reveal>

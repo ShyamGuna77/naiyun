@@ -6,13 +6,13 @@ import { About } from "./components/about/about";
 import Hero from "./components/Hero/MainPage";
 const HomePage = () => {
   return (
-    <div className="grid grid-cols-[54px_1fr]">
+    <div className="grid grid-cols-[54px_1fr] bg-[#18181B]">
       <Sidebar />
       <main>
-        <Header />
+        {/* <Header /> */}
         <div className="mx-auto max-w-5xl px-4 md:px-8 space-y-32 pb-24">
           <Hero />
-        <About />
+          <About />
         </div>
       </main>
     </div>
