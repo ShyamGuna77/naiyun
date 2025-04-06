@@ -2,13 +2,9 @@
 
 
 
-
 @theme {
-  --background-gradient-radial: radial-gradient(var(--tw-gradient-stops));
-  --background-gradient-conic: conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops));
+  --background: #18181B;
 }
-
-
 
 
 .no-scrollbar {
